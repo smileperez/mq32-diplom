@@ -954,6 +954,10 @@ h1, h2, h3, h4, figure, ul, p {
     .trands-article:nth-child(odd) {
         margin-right: .1rem;
     }
+
+    .popup {
+        display: none;
+    }
 }
 
 /* TABLET */
@@ -1065,6 +1069,10 @@ h1, h2, h3, h4, figure, ul, p {
     .footer {
         margin-top: 5rem;
     }
+
+    .popup-form {
+        max-width: 33rem;
+    }
 }
 
 /* TABLET-LANDSCAPE */
@@ -1086,6 +1094,10 @@ h1, h2, h3, h4, figure, ul, p {
 
     .trands-article:last-of-type {
         margin-right: 0;
+    }
+
+    .popup-form {
+        max-width: 33rem;
     }
 }
 
@@ -1260,6 +1272,10 @@ h1, h2, h3, h4, figure, ul, p {
     .footer-copyright {
         width: 100%;
         margin: 0;
+    }
+
+    .popup-form {
+        max-width: 33rem;
     }
 }
 
