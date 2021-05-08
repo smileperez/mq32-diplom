@@ -39,7 +39,7 @@ h1, h2, h3, h4, figure, ul, p {
     height: 100vh;
     position: relative;
     background-color: black;
-    background-image: url("img/banner-mobile.jpg");
+    background-image: url("/img/banner-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
@@ -960,7 +960,7 @@ h1, h2, h3, h4, figure, ul, p {
 
 @media (min-width: 641px) and (max-width: 1200px) {
     .header {
-        background-image: url("img/banner-bg-tablet.jpg");
+        background-image: url("/img/banner-bg-tablet.jpg");
         height: 100%;
     }
 
@@ -1093,7 +1093,7 @@ h1, h2, h3, h4, figure, ul, p {
 
 @media (min-width: 1201px) {
     .header {
-        background-image: url("img/banner-bg.jpg");
+        background-image: url("/img/banner-bg.jpg");
         height: 100%;
     }
 
