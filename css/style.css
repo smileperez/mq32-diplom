@@ -187,19 +187,19 @@ h1, h2, h3, h4, figure, ul, p {
 }
 
 .trand-img-1 {
-    background-image: url('/img/trend1.jpg');
+    background-image: url('../img/trend1.jpg');
 }
 
 .trand-img-2 {
-    background-image: url('/img/trend2.jpg');
+    background-image: url('../img/trend2.jpg');
 }
 
 .trand-img-3 {
-    background-image: url('/img/trend3.jpg');
+    background-image: url('../img/trend3.jpg');
 }
 
 .trand-img-4 {
-    background-image: url('/img/trend4.jpg');
+    background-image: url('../img/trend4.jpg');
 }
 
 .trands-container {
