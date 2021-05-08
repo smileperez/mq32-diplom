@@ -440,5 +440,43 @@
         </address>
         <a href="#" class="footer-copyright">Copyright © 2009–2021 City Blog LLC.</a>
     </footer>
+
+    <div class="popup popup-hidden">
+        <form class="popup-form" action="#" method="post">
+            <input id="popup-toggle" type="checkbox">
+            <label class="popup-btn" for="popup-toggle">
+                <span></span>
+            </label>
+
+            <h3 class="popup-h3">Ваш фидбек</h3>
+            
+            <h4 class="popup-question">Как часто вы заходите на сайт?</h4> 
+            <label class="popup-label" for="popup-select"> 
+                <select id="popup-select" class="popup-select">
+                    <option value="Ежедневно">Ежедневно</option>
+                    <option value="Почти каждый день" selected>Почти каждый день</option>
+                    <option value="Редко">Редко</option>
+                </select>
+            </label>
+
+            <h4 class="popup-question">Вы подписаны на e-mail рассылку?</h4> 
+            <label class="popup-label">
+                <input class="popup-radio" type="radio" name="popup">
+                <span class="popup-radio-text">Да</span>
+            </label>
+            <label class="popup-label">
+                <input class="popup-radio" type="radio" name="popup">
+                <span class="popup-radio-text">Нет</span>
+            </label>
+            
+            <h4 class="popup-question">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</h4> 
+            <label class="popup-label" for="popup-textarea"></label>
+            <textarea class="popup-textarea" id="popup-textarea" rows="3">Может, больше рецептов?</textarea>
+
+            <button class="popup-button" type="submit">
+                Отправить
+            </button>
+        </form>
+    </div>
 </body>
 </html>
