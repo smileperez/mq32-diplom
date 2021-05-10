@@ -561,7 +561,6 @@ h1, h2, h3, h4, figure, ul, p {
     display: block;
     padding-left: 1.8rem;
     padding-right: 1.8rem;
-    z-index: -3;
 }
 
 .item-picture {
@@ -573,6 +572,7 @@ h1, h2, h3, h4, figure, ul, p {
     margin-top: 2.5rem;
     padding-left: 1.8rem;
     padding-right: 1.8rem;
+    z-index: 5;
 }
 
 .items::before {
@@ -586,7 +586,7 @@ h1, h2, h3, h4, figure, ul, p {
     outline: .3rem solid rgba(181, 159, 91, 0.6);
     padding-top: 5.6rem;
     padding-bottom: 2.6rem;
-    z-index: -1;
+    z-index: -4;
 }
 
 .item-name {
