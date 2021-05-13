@@ -100,7 +100,7 @@ h1, h2, h3, h4, figure, ul, p {
     position: fixed;
     top: 0;
     right: 0;
-    width: 60vw;
+    width: 70vw;
     padding: 80px 0;
     height: 100%;
     list-style: none;
@@ -144,6 +144,7 @@ h1, h2, h3, h4, figure, ul, p {
     width: 269px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 14px;
 }
 
 .headline {
@@ -407,6 +408,7 @@ h1, h2, h3, h4, figure, ul, p {
     background-color: #f4f7f6;
     padding-left: 20px;
     padding-right: 20px;
+    border: .1rem solid transparent;
 }
 
 .search-form-input:focus {
@@ -454,6 +456,7 @@ h1, h2, h3, h4, figure, ul, p {
     font-size: 1.3rem;
     border: none;
     padding: 15px 20px;
+    border: 1px solid transparent;
 }
 
 .form-subscribe-input:focus {
@@ -467,6 +470,7 @@ h1, h2, h3, h4, figure, ul, p {
     background-color: var(--main-color);
     border: none;
     color: white;
+    margin-top: 1.8rem;
     padding-top: 1.7rem;
     padding-bottom: 1.7rem;
     font-size: 1.4rem;
@@ -804,14 +808,14 @@ h1, h2, h3, h4, figure, ul, p {
     transform:rotate(-45deg);
 }
 
-.popup-h3 {
+.popup-h2 {
     text-align: center;
     font-size: 1.6rem;
     font-family: 'OpenSans-Bold', sans-serif;
     text-transform: uppercase;
 }
 
-.popup-h3::after {
+.popup-h2::after {
     content: "";
     display: block;
     margin: .9rem auto 0 auto;
@@ -823,18 +827,18 @@ h1, h2, h3, h4, figure, ul, p {
 }
 
 .popup-question {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: 'OpenSans-Regular', sans-serif;
     font-weight: 400;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .popup-select {
     width: 100%;
     background-color: #f4f7f6;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: 'OpenSans-Regular', sans-serif;
     color: var(--color-grey);
     padding: 15px;
@@ -845,6 +849,7 @@ h1, h2, h3, h4, figure, ul, p {
     background-size: .9rem;
     background-repeat: no-repeat;
     background-position: right 1rem center;
+    border: .1rem solid transparent;
 }
 
 .popup-select:focus {
@@ -857,7 +862,7 @@ h1, h2, h3, h4, figure, ul, p {
 }
 
 .popup-radio-text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     display: inline-block;
     margin-right: 2rem;
 }
@@ -884,13 +889,14 @@ h1, h2, h3, h4, figure, ul, p {
     width: 100%;
     background-color: #f4f7f6;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: 'OpenSans-Regular', sans-serif;
-    color: var(--color-grey);
+    color: var(--color-dark);
     padding: 1.5rem;
     resize: none;
     -webkit-appearance: none;
     -moz-appearance: none;
+    border: 1px solid transparent;
 }
 
 .popup-textarea:focus {
@@ -1024,12 +1030,20 @@ h1, h2, h3, h4, figure, ul, p {
         margin-right: auto;
     }
 
+    .module-h3 {
+        font-size: 1.4rem;
+    }
+
     .article-h2-a {
         font-size: 1.7rem;
     }
 
     .article-text {
         font-size: 1.5rem;
+    }
+
+    .article:last-of-type.article::after {
+        display: none;
     }
 
     .sidebar {
@@ -1072,7 +1086,8 @@ h1, h2, h3, h4, figure, ul, p {
     }
 
     .popup-form {
-        max-width: 33rem;
+        max-width: 35rem;
+        padding: 5rem 3rem;
     }
 }
 
@@ -1230,6 +1245,7 @@ h1, h2, h3, h4, figure, ul, p {
 
     .shop {
         width: 91%;
+        max-width: 120rem;
         margin-left: auto;
         margin-right: auto;
         padding: 0 1.5rem;
@@ -1247,7 +1263,12 @@ h1, h2, h3, h4, figure, ul, p {
         margin-bottom: 2.6rem;
     }
 
+    .shop-item:first-child {
+        margin-left: 0;
+    }
+
     .shop-item:last-of-type {
+        margin-right: 0;
         margin-bottom: 2.6rem;
     }
 
@@ -1276,7 +1297,14 @@ h1, h2, h3, h4, figure, ul, p {
     }
 
     .popup-form {
-        max-width: 33rem;
+        max-width: 35rem;
+        padding: 5rem 3rem;
+    }
+
+    .popup-btn > span::before,
+    .popup-btn > span::after
+     {
+        height: .3rem;
     }
 }
 
